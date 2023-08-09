@@ -21,7 +21,7 @@ RUN make build &&\
 
 
 # run driver and csi-sanity tests
-FROM alpine:3.10
+FROM alpine:3.16.7
 WORKDIR /
 # driver UNIX socket
 ENV SOCK="unix:///csi.sock"
