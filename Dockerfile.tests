@@ -1,5 +1,5 @@
 # tests container
-FROM golang:1.13
+FROM golang:1.23rc1
 
 # install deps
 RUN apt-get -q update &&\
