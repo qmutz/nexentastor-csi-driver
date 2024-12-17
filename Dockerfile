@@ -9,7 +9,7 @@ RUN make build &&\
 
 
 # driver container
-FROM alpine:3.10
+FROM alpine:3.21.0
 LABEL name="nexentastor-csi-driver"
 LABEL maintainer="Nexenta Systems, Inc."
 LABEL description="NexentaStor CSI Driver"
